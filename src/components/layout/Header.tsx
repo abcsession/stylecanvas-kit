@@ -38,11 +38,13 @@ export default function Header() {
 
         {/* Main nav bar */}
         <div className="flex items-center justify-between h-14 lg:h-16 px-4 lg:px-6">
-          {/* Left: logo (desktop) / burger (mobile is on right) */}
+          {/* Left: logo */}
           <a href="/" className="flex-shrink-0 lg:flex-1">
-            <span className="label-s font-bold tracking-[0.2em] text-foreground">
-              {brand.name}
-            </span>
+            <img
+              src={brand.logoUrl}
+              alt={brand.name}
+              className="h-8 lg:h-10 w-auto"
+            />
           </a>
 
           {/* Center: main menu (desktop) */}
@@ -102,7 +104,6 @@ export default function Header() {
           </div>
         )}
       </header>
-
       <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} />
     </>
   );
