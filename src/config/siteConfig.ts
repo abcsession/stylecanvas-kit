@@ -1,7 +1,7 @@
 export const siteConfig = {
   brand: {
-    name: "YOUR BRAND",
-    logoUrl: "/logo.svg",
+    name: "COAS",
+    logoUrl: "/logo.png",
     favicon: "/favicon.png",
     tagline: "The Original Sportswear Brand",
   },
@@ -99,7 +99,7 @@ export const siteConfig = {
     {
       id: 1,
       label: "Spring Summer 026",
-      heading: "Mackintosh x Brand",
+      heading: "COAS Collection",
       description: "A shared vision shaped by craftsmanship, innovation, and contemporary design.",
       imageDesktop: "/images/hero-1-desktop.jpg",
       imageMobile: "/images/hero-1-mobile.jpg",
@@ -151,8 +151,8 @@ export const siteConfig = {
     ],
   },
   aboutSection: {
-    heading: "about YOUR BRAND",
-    body: "Founded in 1971, this brand pioneered a hybrid style merging military, workwear, and sportswear influences. For over 50 years it has been at the forefront of fabric innovation and garment dyeing technology. This fusion of functional design and textile research lies at the core of the brand and continues to shape every garment that carries its name.",
+    heading: "about COAS",
+    body: "Founded in 1971, COAS pioneered a hybrid style merging military, workwear, and sportswear influences. For over 50 years it has been at the forefront of fabric innovation and garment dyeing technology. This fusion of functional design and textile research lies at the core of the brand and continues to shape every garment that carries its name.",
     image: "/images/about.jpg",
   },
   newsletter: {
@@ -200,12 +200,12 @@ export const siteConfig = {
       { label: "Authenticity", href: "/authenticity" },
     ],
     social: [
-      { platform: "Facebook", url: "https://facebook.com/yourbrand", icon: "Facebook" as const },
-      { platform: "Instagram", url: "https://instagram.com/yourbrand", icon: "Instagram" as const },
-      { platform: "X", url: "https://x.com/yourbrand", icon: "Twitter" as const },
-      { platform: "YouTube", url: "https://youtube.com/yourbrand", icon: "Youtube" as const },
-      { platform: "TikTok", url: "https://tiktok.com/@yourbrand", icon: "Music" as const },
-      { platform: "LinkedIn", url: "https://linkedin.com/company/yourbrand", icon: "Linkedin" as const },
+      { platform: "Facebook", url: "https://facebook.com/coas", icon: "Facebook" as const },
+      { platform: "Instagram", url: "https://instagram.com/coas", icon: "Instagram" as const },
+      { platform: "X", url: "https://x.com/coas", icon: "Twitter" as const },
+      { platform: "YouTube", url: "https://youtube.com/coas", icon: "Youtube" as const },
+      { platform: "TikTok", url: "https://tiktok.com/@coas", icon: "Music" as const },
+      { platform: "LinkedIn", url: "https://linkedin.com/company/coas", icon: "Linkedin" as const },
     ],
   },
   cookie: {
